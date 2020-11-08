@@ -115,6 +115,13 @@ img {
   color: rgb(83, 83, 83);
   font-weight: 300;
 }
+.my {
+  margin-bottom: 1.2rem;
+  margin-left: 0.9rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
 .card_container {
   margin: 4rem 6rem;
   display: flex;
