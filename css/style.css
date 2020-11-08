@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #d8d8d8;
+}
+.tophead {
+  width: 100%;
+  height: 6.5rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(158, 158, 158);
+}
+.header_content p {
+  margin-right: 5rem;
+}
+.fa-bell {
+  margin-right: 5rem;
+}
+.hamburger {
+  color: rgb(113, 113, 255);
+  font-weight: bold;
+  font-size: 1.9rem;
+  padding-left: 7rem;
+  cursor: pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 5.3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3572b0;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+.sidenav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 1.5rem 0 1rem 2rem;
+}
+.sidenav a:hover {
+  background: #5483b3;
+}
+.sidenav a i {
+  margin-right: 2rem;
+}
+
+.sidenav input {
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.1rem solid rgb(170, 168, 168);
+  height: 3.5rem;
+  width: 90%;
+  margin-left: 1rem;
+  background: none;
+  visibility: hidden;
+}
+::placeholder {
+  color: white;
+  padding: 1rem;
+  opacity: 1;
+}
+img {
+  height: 3.5rem;
+  width: 14rem;
+  margin-top: 2rem;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: #2a67a5;
+  margin-left: 4.6rem;
+}
+.closebutton {
+  margin-top: 1rem;
+}
+
+.test {
+  display: flex;
+  justify-content: start;
+}
+.main_content {
+  transition: all 0.3s ease-in-out;
+}
+#logo_img {
+  width: 4rem;
+}
+.main_content h4 {
+  margin: 4rem 6rem;
+
+  font-size: 2rem;
+  color: rgb(83, 83, 83);
+  font-weight: 300;
+}
+.card_container {
+  margin: 4rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 2rem 0;
+  height: 19rem;
+  width: 39rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 0.2rem #686868;
+  cursor: pointer;
+}
+.card h3 {
+  font-size: 2rem;
+}
+.card p {
+  font-size: 1.4rem;
+}
+.lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4caf50;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.far {
+  margin-right: 0.7rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.fas {
+  margin-right: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.upper_content {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.upper_text h3 {
+  margin-bottom: 2rem;
+}
+.upper_text p {
+  margin-bottom: 1rem;
+}
+.upper_img img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+footer {
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+footer p {
+  font-size: 1.9rem;
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0rem;
+  }
+  .main_content h4 {
+    margin: 4rem 2rem;
+
+    font-size: 2rem;
+    color: rgb(83, 83, 83);
+    font-weight: 300;
+  }
+  .card_container {
+    margin: 4rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hamburger {
+    padding-left: 2rem;
+  }
+}

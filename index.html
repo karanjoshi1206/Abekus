@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abekus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="tophead">
+            <div>
+                <span class="hamburger" onclick="opennav()"><i class="fas fa-bars"></i></span>
+            </div>
+            <div class="header_content">
+                <p>Score <br>0</p>
+                <p>Credits <br>50</p>
+                <i class="fas fa-bell"></i>
+
+            </div>
+        </div>
+    </header>
+    <div class="sidenav" id="side" id="side2">
+        <div id="logo" class="logo">
+            <img id="logo_img" src="/images/logo2.png" alt="">
+            <a href="javascript:void(0)" id="button" class="closebutton" onclick="closenav()"><i
+                    class="fas fa-arrow-left"></i></a>
+        </div>
+
+        <input type="text" placeholder="Computer Science ">
+        <a class="test" href="#"> <i class="fas fa-ellipsis-h"></i>
+            <div class="text">Play</div>
+        </a>
+        <a class="test" href="#"> <i class="far fa-chart-bar"></i>
+            <div class="text">Leaderboard</div>
+        </a>
+        <a class="test" href="#"> <i class="fas fa-bars"></i>
+            <div class="text">Questions</div>
+        </a>
+        <a class="test" href="#"> <i class="fas fa-history"></i>
+            <div class="text">History</div>
+        </a>
+    </div>
+    <section id="main" class="main_content">
+        <h4 class="heading">Category</h4>
+        <div class="card_container">
+            <div class=" card card1">
+
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Algorithms</h3>
+                            <p>Algorithms and Data Structures</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/933</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/algo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>AWS</h3>
+                            <p>Amazon Web Wervices</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/379</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/aws.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Bash Scripting & Commands</h3>
+                            <p>Bash Scripting & Commands</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/338</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/bsc.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Blockchain</h3>
+                            <p>Blockchain Technology</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/189</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/blockchain.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card5">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Bootstrap</h3>
+                            <p> Bootstrap Framework Questions</p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/368</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/bootstrap.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card6">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>C#</h3>
+                            <p> C Sharp Programming Language</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/62</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/cshp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card7">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>C & C++</h3>
+                            <p> The C & C++ Programming Languages</p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/3369</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/cpp.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class=" card card8">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>HTML & CSS</h3>
+                            <p>HTML and CSS</p>
+                            <i class="fas fa-tasks"></i>
+                            <span>0/1418</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/html.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card9">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Java</h3>
+                            <p>Java Language </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/2500</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/java.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card10">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Javascript </h3>
+                            <p>The Javasccipt Programming Language
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/2410</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/js.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card11">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Machine Learning
+
+                            </h3>
+                            <p> Machine Learning Questions
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/43</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/ml.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card12">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Matlab
+
+                            </h3>
+                            <p> Matlab Programming
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/505</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/algo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card13">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>MongoDB
+
+                            </h3>
+                            <p> MongoDB NoSQL Database
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/95</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/mongo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card14">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>MySQL
+
+                            </h3>
+                            <p> MySQL related questions
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span> 0/605</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/mysql.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card15">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Networking
+                            </h3>
+                            <p> Computer Networking
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/792</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/networking.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card16">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Operating Systems
+
+
+                            </h3>
+                            <p> Operating Systems Concepts
+
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/408</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/networking.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card17">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Networking
+                            </h3>
+                            <p> Computer Networking
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/792</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/os.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card18">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>PHP
+                            </h3>
+                            <p> The PHP Language
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/674</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/php.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+
+            <div class="card card15">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Python
+                            </h3>
+                            <p> The Python Programming Language
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/1923</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/py.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card15">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>SEO
+                            </h3>
+                            <p> Search Engine Optimization
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/66</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/seo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+            <div class="card card15">
+                <div class="upper">
+                    <div class="upper_content">
+                        <div class="upper_text">
+                            <h3>Swift
+                            </h3>
+                            <p> Swift Programming Language
+
+                            </p>
+                            <i class="fas fa-tasks"></i>
+                            <span>
+                                0/582</span>
+                        </div>
+                        <div class="upper_img">
+                            <img src="/images/SWIFT.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <i class="far fa-play-circle"></i>
+                    <h3>START QUIZ</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Need help? Reach us at
+            <a
+                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=hello@abekus.co">hello@abekus.co</a>
+        </p>
+    </footer>
+
+    <script>
+        const opennav = () => {
+            document.getElementById("side").style.width = "250px"
+            document.getElementById("main").style.marginLeft = "200px"
+            document.getElementById("logo").style.visibility = "visible"
+            document.querySelector("input").style.visibility = "visible"
+            document.getElementById("logo_img").src = "/images/logo.png"
+            document.getElementById("logo_img").style.width = "140px"
+            document.getElementById("button").style.visibility = "visible"
+
+
+
+
+
+
+            function myFunction(x) {
+                if (x.matches) {
+                    document.getElementById("side").style.width = "180px"
+                    document.getElementById("main").style.marginLeft = "0px"
+                    document.getElementById("logo_img").style.width = "110px"
+                    document.getElementById("logo").style.marginLeft = "20px"
+                    document.getElementById("logo_img").src = "/images/logo.png"
+                    document.getElementById("logo").style.visibility = "visible"
+                    document.querySelector("input").style.visibility = "visible"
+                    document.getElementById("button").style.visibility = "visible"
+
+
+                } else {
+                    document.getElementById("side").style.width = "250px"
+                    document.getElementById("main").style.marginLeft = "200px"
+                    document.getElementById("logo").style.visibility = "visible"
+                    document.querySelector("input").style.visibility = "visible"
+                    document.getElementById("logo_img").src = "/images/logo.png"
+                    document.getElementById("logo_img").style.width = "140px"
+                    document.getElementById("button").style.visibility = "visible"
+                }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction)
+
+
+
+
+
+        }
+        const closenav = () => {
+
+
+            function myFunction(x) {
+                if (x.matches) {
+                    document.getElementById("side").style.width = "0px"
+                    document.getElementById("main").style.marginLeft = "0px"
+                    document.querySelector("input").style.visibility = "hidden"
+                    document.getElementById("logo_img").src = "/images/logo2.png"
+                    document.getElementById("logo_img").style.width = "40px"
+                    document.getElementById("logo").style.marginLeft = "46px"
+                    document.getElementById("button").style.visibility = "hidden"
+                } else {
+                    document.getElementById("side").style.width = "53px"
+                    document.getElementById("main").style.marginLeft = "0px"
+                    document.querySelector("input").style.visibility = "hidden"
+                    document.getElementById("logo_img").src = "/images/logo2.png"
+                    document.getElementById("logo_img").style.width = "40px"
+                    document.getElementById("logo").style.marginLeft = "46px"
+                    document.getElementById("button").style.visibility = "hidden"
+                }
+            }
+
+            var x = window.matchMedia("(max-width: 700px)")
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+
+
+        }
+    </script>
+</body>
+
+</html>
